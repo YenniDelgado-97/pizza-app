@@ -1,0 +1,104 @@
+:host {
+  header {
+    padding: 10px 0;
+    background-color: var(--white);
+    height: 150px;
+
+    .container {
+      max-width: 1500px;
+
+      .menu {
+        margin-top: 12px;
+        ul {
+          padding: 20px;
+          margin: 0;
+
+          a {
+            list-style-type: none;
+            color: black;
+            display: inline-block;
+            font-size: 25px;
+            margin-left: 24px;
+
+            &:hover {
+              color: #222;
+              cursor: pointer;
+              transition: 0.4s ease-in-out;
+            }
+          }
+
+          i{
+            display: inline-block;
+            margin-left: 50px;
+            font-size: 40px;
+            
+
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 998px) {
+  header {
+
+    .container {
+      img {
+        width: 150px;
+        height: 80px;
+      }
+
+      .menu {
+        position: fixed;
+        right: -280px;
+        top: 64px;
+        background: rgb(255, 255, 255);
+        width: 150px;
+        height: 20%;
+
+        ul {
+          padding: 0;
+          margin: 0;
+
+          a {
+            display: block;
+            text-align: right;
+            margin: 0;
+            border-bottom: 1px solid rgb(0, 0, 0);
+          }
+        }
+      }
+
+      .menu__icon {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        top: 15px;
+        span {
+          width: 35px;
+          height: 3px;
+          background: rgb(0, 0, 0);
+          display: block;
+          transition: 0.4s ease-in-out;
+        }
+        :nth-child(2) {
+          margin: 8px 0px;
+        }
+      }
+      .menu__icon__Class span:nth-child(2) {
+        display: none;
+      }
+      .menu__icon__Class span:nth-child(1) {
+        transform: rotate(40deg);
+      }
+      .menu__icon__Class span:nth-child(3) {
+        transform: rotate(-40deg);
+        margin-top: -3px;
+      }
+      .menuClass {
+        right: 0;
+        transition: 0.4s ease-in-out;
+      }
+    }
+  }
+}

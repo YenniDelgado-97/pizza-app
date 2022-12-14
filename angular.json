@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fontawesome-free-6.2.1-web/css/all.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fontawesome-free-6.2.1-web/css/all.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a28b8bd0-61ce-4b75-806c-26868872a921"
   }
 }
