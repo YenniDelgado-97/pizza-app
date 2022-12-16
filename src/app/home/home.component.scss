@@ -6,5 +6,25 @@
         flex-wrap:wrap;
         list-style-type: none;
         padding: 0;
+
+        li{
+            a{
+                height: 300px;
+                width: 300px;
+                border:1px solid whitesmoke ;
+                border-radius:20px ;
+                margin:0.5rem;
+                display:flex;
+                justify-content: center;
+                flex-direction: column;
+                overflow:hidden ;
+                color: #e72929;
+
+                &:hover{
+                    opacity: 0.9;
+                    cursor:pointer;
+                }
+            }
+        }
     }
 }
