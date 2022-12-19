@@ -65,7 +65,7 @@ export class FoodService {
         name:'Limonada',
         cookTime:'20-35mn',
         price:5.000,
-        favorite:true,
+        favorite:false,
         stars:4.5,
         imageUrl:'assets/images/lemon.jpg',
         tags:['bebidas'],

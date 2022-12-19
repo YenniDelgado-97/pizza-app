@@ -4,13 +4,32 @@
             <img src="{{food.imageUrl}}" alt="">
             <div class="content">
                 {{food.name}}
-            </div>
+            
 
-            <span class="favorite">
-                ♥
-            </span>
+                <span class="favorite {{food.favorite?''':'not'}}">
+                    ♥
+                </span>
+                <div class="product-item-footer">
+                    <div class="cook-time">
+                        <span>
+                            ⏰
+                        </span>
+                        {{food.cookTime}}
+
+                    </div>
+                    <div class="price">
+                        <span>
+                            {{food.price|currency}}
+                        </span>
+                    </div>
+
+                </div>
+                
+            </div>
+            
+
         </a>
-        
+
 
     </li>
 </ul>
