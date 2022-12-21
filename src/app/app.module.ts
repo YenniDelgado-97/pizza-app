@@ -12,6 +12,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     SearchComponent,
     FoodPageComponent,
     CartPageComponent
+    
   ],
   imports: [
     BrowserModule,
