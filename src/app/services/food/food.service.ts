@@ -18,7 +18,7 @@ export class FoodService {
         id:1,
         name:'Pepperoni Pizza',
         cookTime:'20-45mn',
-        price:20000,
+        price:(20000*100)/10,
         favorite:true,
         stars:4.5,
         imageUrl:'assets/images/pepperoni.jpg',
@@ -87,3 +87,11 @@ export class FoodService {
     ];
   }
 }
+function round(arg0: number) {
+  throw new Error('Function not implemented.');
+}
+
+function MathRound(arg0: number) {
+  throw new Error('Function not implemented.');
+}
+
