@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Food} from '../../shared/models/Food'
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -92,6 +93,10 @@ function round(arg0: number) {
 }
 
 function MathRound(arg0: number) {
+  throw new Error('Function not implemented.');
+}
+
+function MathTrunc(arg0: number) {
   throw new Error('Function not implemented.');
 }
 

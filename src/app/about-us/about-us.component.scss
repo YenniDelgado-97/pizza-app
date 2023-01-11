@@ -1,0 +1,183 @@
+:host {
+    .description-page {
+
+        font-family: 'Quattrocento', serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        padding: 50px;
+        background: linear-gradient(250.01deg, rgba(255, 255, 255, 0.329168) 2.96%, rgba(255, 255, 255, 0) 27.84%, rgba(235, 102, 31, 0.69) 98.04%, rgba(235, 102, 31, 0.72) 98.06%);
+
+        .title-page {
+
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 39px;
+        }
+
+        .paragraph-page {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 30px;
+
+
+        }
+
+        .pizza-image{
+            width: 740px;
+            height: 510px;
+        }
+    }
+
+    .about-page{
+        font-family: 'Quattrocento', serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        padding: 50px;
+
+        .title-about{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 39px;
+        }
+
+        .paragraph-about{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 30px;
+        }
+
+        .pital-image{
+            width: 500px;
+            height: 500px;
+            margin-top: 30px;
+        }
+    }
+
+    .menu-page{
+        font-family: 'Quattrocento', serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        padding: 50px;
+        background: linear-gradient(250.01deg, rgba(255, 255, 255, 0.329168) 2.96%, rgba(255, 255, 255, 0) 27.84%, rgba(235, 102, 31, 0.69) 98.04%, rgba(235, 102, 31, 0.72) 98.06%);
+
+
+
+        .title-menu{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 39px;
+        }
+
+        .paragraph-menu{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 33px;
+            margin-top: 30px;
+        }
+
+        .menu-container{
+            justify-content: space-evenly;
+            margin-top: 20px;
+            padding: 15px;
+            .menu-image{
+                width: 350px;
+                height: 350px;
+                padding-right: 20px;
+            }
+
+        }
+
+        .menu-button{
+            width: 20%;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            background: orange;
+            border: none;
+            border-radius: 5px;
+            transition: 1s all;
+            cursor: pointer;
+
+            &:hover{
+                background: var(--secundary-color);
+                border: #000;
+            }
+        }
+  
+
+    }
+
+
+    footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        align-items: center;
+        
+        img{
+            width: 8rem;
+        }
+    }
+
+
+    @media screen and (max-width:480px){
+
+       .description-page{
+        .paragraph-page{
+            font-size: 20px;
+        }
+
+        .pizza-image{
+            width: 400px;
+            height: 300px;
+        }
+       }
+
+       .about-page{
+        .paragraph-about{
+            font-size: 20px;
+        }
+
+        .pital-image{
+            width: 300px;
+            height: 300px;
+        }
+       }
+
+       .menu-page{
+        .paragraph-menu{
+            font-size: 20px;
+        }
+
+        .menu-container{
+            .menu-image{
+                width: 310px;
+                height: 300px;
+            }
+        }
+       }
+
+       .menu-button{
+        width: 40%;
+       }
+          
+    }
+
+}
