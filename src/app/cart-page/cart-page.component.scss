@@ -145,4 +145,12 @@
         
     }
 
+    @media screen and (max-width:480px){
+        .container{
+            .checkout{
+                margin: 0rem;
+            }
+        }
+    }
+
 }
