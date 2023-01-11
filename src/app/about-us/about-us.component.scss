@@ -101,11 +101,83 @@
 
         }
 
+        .menu-button{
+            width: 20%;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            background: orange;
+            border: none;
+            border-radius: 5px;
+            transition: 1s all;
+            cursor: pointer;
+
+            &:hover{
+                background: var(--secundary-color);
+                border: #000;
+            }
+        }
+  
+
+    }
+
+
+    footer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        align-items: center;
         
+        img{
+            width: 8rem;
+        }
+    }
 
 
-       
+    @media screen and (max-width:480px){
 
+       .description-page{
+        .paragraph-page{
+            font-size: 20px;
+        }
+
+        .pizza-image{
+            width: 400px;
+            height: 300px;
+        }
+       }
+
+       .about-page{
+        .paragraph-about{
+            font-size: 20px;
+        }
+
+        .pital-image{
+            width: 300px;
+            height: 300px;
+        }
+       }
+
+       .menu-page{
+        .paragraph-menu{
+            font-size: 20px;
+        }
+
+        .menu-container{
+            .menu-image{
+                width: 310px;
+                height: 300px;
+            }
+        }
+       }
+
+       .menu-button{
+        width: 40%;
+       }
+          
     }
 
 }
