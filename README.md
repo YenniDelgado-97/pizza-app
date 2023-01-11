@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
+## Description
+
+This project is an e-commerce developed to a growing food business in a little town in Colombia.The principal purpose was that the pizza shop had its first web site.
+
+I used Angular because it helps build interactive and dynamic single page aplications and one of the biggest advantage is that it is supported by Google.
+
+One of the principal challenges to me was learning a new framework and also used Typescript and Sass.I hope to implement in the future the backend of this app.
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
