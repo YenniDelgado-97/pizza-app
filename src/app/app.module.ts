@@ -9,6 +9,7 @@ import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { FoodPageComponent } from './food-page/food-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 
@@ -20,7 +21,8 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     HomeComponent,
     SearchComponent,
     FoodPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    AboutUsComponent
     
   ],
   imports: [
