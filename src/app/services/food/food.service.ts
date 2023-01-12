@@ -18,8 +18,8 @@ export class FoodService {
       {
         id:1,
         name:'Pepperoni Pizza',
-        cookTime:'20-45mn',
-        price:(20000*100)/10,
+        cookTime:'20-45min',
+        price:20000,
         favorite:true,
         stars:4.5,
         imageUrl:'assets/images/pepperoni.jpg',
@@ -28,7 +28,7 @@ export class FoodService {
       {
         id:2,
         name:'Champi-Pizza',
-        cookTime:'20-45mn',
+        cookTime:'20-45min',
         price:20000,
         favorite:true,
         stars:5.0,
@@ -38,7 +38,7 @@ export class FoodService {
       {
         id:3,
         name:'Colombi-Pizza',
-        cookTime:'20-45mn',
+        cookTime:'20-45min',
         price:20000,
         favorite:true,
         stars:4.5,
@@ -48,7 +48,7 @@ export class FoodService {
       {
         id:4,
         name:'Mexi-Pizza',
-        cookTime:'20-45mn',
+        cookTime:'20-45min',
         price:20000,
         favorite:true,
         stars:4.5,
@@ -58,7 +58,7 @@ export class FoodService {
       {
         id:5,
         name:'Veggi-Pizza',
-        cookTime:'20-45mn',
+        cookTime:'20-45min',
         price:20000,
         favorite:true,
         stars:4.5,
@@ -68,7 +68,7 @@ export class FoodService {
       {
         id:6,
         name:'Limonada',
-        cookTime:'20-35mn',
+        cookTime:'20-35min',
         price:5000,
         favorite:false,
         stars:4.5,
