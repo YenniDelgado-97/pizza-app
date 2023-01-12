@@ -22,9 +22,10 @@
             margin-left: 24px;
 
             &:hover {
-              color: #222;
+              color: var(--secundary-color);
               cursor: pointer;
               transition: 0.4s ease-in-out;
+              text-decoration: underline;
             }
           }
 
@@ -43,6 +44,7 @@
 
 @media only screen and (min-width: 375px) and (max-width: 998px) {
   header {
+    height: none;
 
     .container {
       img {
@@ -82,7 +84,7 @@
       .menu__icon {
         display: inline-block;
         position: relative;
-        right: 0;
+        right: 25px;
         top: 15px;
         span {
           width: 35px;
